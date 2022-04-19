@@ -1,0 +1,11 @@
+apiVersion : V1
+kind : Pod
+metadata : 
+  name : First-api
+  labels :
+    app : myapp
+    type : testApi
+spec :
+  containers:
+  - name : jenkins
+  image : jenkins_home
